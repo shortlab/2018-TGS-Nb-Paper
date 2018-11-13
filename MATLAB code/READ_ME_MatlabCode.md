@@ -26,15 +26,15 @@ over the course ofa year) in which naming conventions were not always consistent
 
 An example (truncated) script might look like this:
 
-gs=5.48099;
-temp=zeros(10,3);
+    gs=5.48099;
+    temp=zeros(10,3);
 
-temp(1,1)=param_extract_time(1,'NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-POS-1.txt','NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-NEG-1.txt',gs,0);
-temp(2,1)=param_extract_time(1,'NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot02-POS-1.txt','NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot02-NEG-1.txt',gs,0);
-...
+    temp(1,1)=param_extract_time(1,'NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-POS-1.txt','NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-NEG-1.txt',gs,0);
+    temp(2,1)=param_extract_time(1,'NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot02-POS-1.txt','NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot02-NEG-1.txt',gs,0);
+    ...
 
-temp(1,2)=param_extract_time(1,'NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-POS-2.txt','NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-NEG-2.txt',gs,0);
-...
+    temp(1,2)=param_extract_time(1,'NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-POS-2.txt','NiAl_II_Sample10_5.5-2018-03-30-05.50um-spot01-NEG-2.txt',gs,0);
+    ...
 
  Here, all the data was taken on the same day so only one grating spacing variable is needed. There were ten spots 
 of interest (ten rows in the results matrix), with three traces per spot (three columns per results matrix). 

@@ -1,3 +1,5 @@
+TGS Matlab Scripts read me
+
 The files in this folder can be used to analyze the TGS data for frequency and thermal diffusivity information. 
 This paper focuses only on thermal diffusivity. To use the scripts, they should be saved to the same folder as the data file 
 of interest.

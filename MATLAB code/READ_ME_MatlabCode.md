@@ -45,7 +45,7 @@ of interest (ten rows in the results matrix), with three traces per spot (three 
 that day using the param_extract_time function. The known speed of sound in single crystal tungsten, 2665.9 m/s, is divided by this 
 SAW frequency to determine the true grating spacing for that day. When calling param_extract_time to collect the tungsten frequency, the 
 nominal grating spacing value is used in the argument (e.g. here the nominal grating spacing was 5.5 micrometers). 
+
 **Note that the thermal_phase function returns three values in this iteration. The first value is thermal diffusivity. The second is 
 thermal fit error, and the third is acoustic damping. Acoustic damping analysis is still in progress, and this third value should be 
-ignored. However, knowing that the thermal_phase function returns three values is helpful when writing a script to run through multiple data
-files and populate a matrix with results: it's necessary to specify that you want to collect the first of three returned values. 
+ignored. However, knowing that the thermal_phase function returns three values is helpful when writing a script to run through multiple data files and populate a matrix with results: it's necessary to specify that you want to collect the first of three returned values. 

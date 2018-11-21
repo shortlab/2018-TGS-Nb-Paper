@@ -8,3 +8,5 @@ This is the MIT Mesoscale Nuclear Material group data repository for our manuscr
 (3) The appendix PDF details the assumptions and procedures we use to calculate the relevant dpa levels.
 
 (4) The SRIM output is relevant to the calculation detailed in (3). 
+
+<a href="https://www.zenodo.org/badge/latestdoi/155172560"><img src="https://www.zenodo.org/badge/155172560.svg" alt="DOI"></a>
